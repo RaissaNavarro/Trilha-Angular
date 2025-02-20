@@ -3,6 +3,15 @@
 </head>
 <div class="head">
   <nav>
+    <div class="logo">
+      <img src="../mac-os.png" alt="">
+    </div>
+    <div class="menu">
+      <p>iPhone</p>
+      <p>iPad</p>
+      <p>AirPods</p>
+      <p>Mac</p>
+    </div>
     <div class="icons-head">
       <i class="bi bi-cart"></i>
       <i class="bi bi-heart"></i>
@@ -21,14 +30,36 @@
   <div class="banner">
     <img src="../banner.png" alt="">
   </div>
-
-
     <div class="produtos">
       <div class="produto" *ngFor="let produto of produtos">
         <img [src]="produto.imagem" alt="Imagem do produto">
         <h3>{{ produto.nome }}</h3>
         <p>A partir de R$ {{ produto.preco }}</p>
+        <div class="infos-phone">
+          <button>Saiba mais</button>
+          <p>Comprar></p>
+        </div>
       </div>
     </div>
+    <footer>
+      <div class="rodape">
+        <div class="infos-iphone">
+          <h1>iPhone</h1>
+          <p>Explorar iPhone</p>
+          <h3>Explorar todos os iPhones</h3>
+          <h3>iPhone 16 Pro</h3>
+          <h3>iPhone 16</h3>
+          <h3>iPhone 16e</h3>
+          <p>Comparar iPhone</p>
+          <p>Mudar do Android</p>
+        </div>
+        <div class="info-meio">
+          <p>Mudar do Android</p>
+          <p>Mudar do Android</p>
+          <p>Mudar do Android</p>
+          <p>Mudar do Android</p>
+        </div>
+      </div>
+    </footer>
   </div>
   
