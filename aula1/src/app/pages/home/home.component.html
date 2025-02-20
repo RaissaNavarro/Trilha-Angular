@@ -1,0 +1,34 @@
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<div class="head">
+  <nav>
+    <div class="icons-head">
+      <i class="bi bi-cart"></i>
+      <i class="bi bi-heart"></i>
+    </div>
+  </nav>
+
+</div>
+<div class="home-container">
+  <div class="input-search">
+    <input type="text"
+    placeholder="O que você está procurando?"
+    id="search"
+    >
+    <i class="bi bi-search"></i>
+  </div>
+  <div class="banner">
+    <img src="../banner.png" alt="">
+  </div>
+
+
+    <div class="produtos">
+      <div class="produto" *ngFor="let produto of produtos">
+        <img [src]="produto.imagem" alt="Imagem do produto">
+        <h3>{{ produto.nome }}</h3>
+        <p>A partir de R$ {{ produto.preco }}</p>
+      </div>
+    </div>
+  </div>
+  
