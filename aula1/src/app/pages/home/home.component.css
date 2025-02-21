@@ -218,11 +218,13 @@ button:hover {
 
  .infos-iphone h1{
   cursor: pointer;
+  color: #313131;
  }
 
  .infos-iphone h3{
   cursor: pointer;
-  font-size: 25px;
+  font-size: 22px;
+  color: #313131;
  }
 
  .rodape{
@@ -232,9 +234,13 @@ button:hover {
  }
 
  .info-meio {
-  padding-top: 300px; 
+  padding-top: 125px; 
   font-size: 20px;
   color: rgb(101, 101, 101) ;
+ }
+
+ .info-meio h3{
+  font-size: 20px;
  }
 
  
